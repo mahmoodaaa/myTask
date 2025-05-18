@@ -26,6 +26,7 @@ TaskMaster is a powerful task management application designed to help you organi
 - Font Awesome for icons
 - Local Storage for data persistence
 
+### Deploy to GitHub Pages
 ## Live Demo
 
 Check out the live demo: [TaskMaster App](http://127.0.0.1:5500/about.html)
@@ -39,18 +40,7 @@ Check out the live demo: [TaskMaster App](http://127.0.0.1:5500/about.html)
 
 2. Open `index.html` in your browser to start using the application.
 
-### Deploy to GitHub Pages
 
-To deploy this project to GitHub Pages:
-
-1. Go to your repository settings on GitHub
-2. Navigate to "Pages" section under "Settings"
-3. Under "Build and deployment":
-   - Source: Select "Deploy from a branch"
-   - Branch: Select "main" and "/(root)"
-4. Click "Save"
-5. Wait a few minutes for the deployment to complete
-6. Your site will be published at: `https://mahmoodaaa.github.io/MyTasks/`
 
 
 ## Project Structure
