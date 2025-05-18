@@ -31,7 +31,7 @@ TaskMaster is a powerful task management application designed to help you organi
 
 ## Live Demo
 
-Check out the live demo: [TaskMaster App](https://mahmoodaaa.github.io/MyTasks/)
+Check out the live demo: [TaskMaster App](http://127.0.0.1:5500/about.html)
 
 ## Getting Started
 
