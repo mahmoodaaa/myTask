@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-tasks"></i>
+            TaskMaster
+        </div>
+        <nav>
+            <a href="index.html" class="active">
+                <i class="fas fa-home"></i> Home
+            </a>
+            <a href="about.html">
+                <i class="fas fa-info-circle"></i> About
+            </a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="task-input">
+            <div class="input-group">
+                <input type="text" id="new-task" placeholder="Enter new task..." autofocus>
+                <button id="add-task" class="primary-btn">
+                    <i class="fas fa-plus"></i> Add Task
+                </button>
+            </div>
+        </section>
+
+        <section class="task-list">
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Task Name</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tasks">
+                        <!-- Tasks will be added here dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023-2025 TaskMaster. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
