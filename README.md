@@ -4,9 +4,6 @@
   <img src="images/profile.jpg" alt="Mahmood Aljdayeh" width="200" style="border-radius: 50%;">
   <h2>Mahmood Aljdayeh</h2>
   
-  [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=for-the-badge&logo=github)](https://mahmoodaaa.github.io/MyTasks/)
-  [![Last Commit](https://img.shields.io/github/last-commit/mahmoodaaa/MyTasks?style=for-the-badge)](https://github.com/mahmoodaaa/MyTasks/commits)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 </div>
 
 ## About The Project
@@ -55,19 +52,6 @@ To deploy this project to GitHub Pages:
 5. Wait a few minutes for the deployment to complete
 6. Your site will be published at: `https://mahmoodaaa.github.io/MyTasks/`
 
-#### Troubleshooting Deployment
-If you see a 404 error:
-1. Make sure all files are in the root directory of the main branch
-2. Verify that `index.html` exists in the root directory
-3. Check the GitHub Actions tab for any deployment errors
-4. Try pushing a small change to trigger a new deployment:
-   ```bash
-   # Add a small change to trigger deployment
-   git checkout main
-   git add .
-   git commit -m "Trigger GitHub Pages deployment"
-   git push origin main
-   ```
 
 ## Project Structure
 
