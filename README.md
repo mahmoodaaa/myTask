@@ -4,8 +4,8 @@
   <img src="images/profile.jpg" alt="Mahmood Aljdayeh" width="200" style="border-radius: 50%;">
   <h2>Mahmood Aljdayeh</h2>
   
-  [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=for-the-badge&logo=github)](https://mahmoodaljdayeh.github.io/MyTasks/)
-  [![Last Commit](https://img.shields.io/github/last-commit/mahmoodaljdayeh/MyTasks?style=for-the-badge)](https://github.com/mahmoodaljdayeh/MyTasks/commits)
+  [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=for-the-badge&logo=github)](https://mahmoodaaa.github.io/MyTasks/)
+  [![Last Commit](https://img.shields.io/github/last-commit/mahmoodaaa/MyTasks?style=for-the-badge)](https://github.com/mahmoodaaa/MyTasks/commits)
   [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 </div>
 
@@ -31,13 +31,13 @@ TaskMaster is a powerful task management application designed to help you organi
 
 ## Live Demo
 
-Check out the live demo: [TaskMaster App](http://127.0.0.1:5500/about.html)
+Check out the live demo: [TaskMaster App](https://mahmoodaaa.github.io/MyTasks/)
 
 ## Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mahmoodaljdayeh/MyTasks.git
+   git clone https://github.com/mahmoodaaa/MyTasks.git
    ```
 
 2. Open `index.html` in your browser to start using the application.
@@ -50,7 +50,7 @@ To deploy this project to GitHub Pages:
 2. Navigate to "Pages" section
 3. Under "Source", select "main" branch
 4. Click "Save"
-5. Your site will be published at: `https://mahmoodaljdayeh.github.io/MyTasks/`
+5. Your site will be published at: `https://mahmoodaaa.github.io/MyTasks/`
 
 ## Project Structure
 
