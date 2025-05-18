@@ -47,10 +47,27 @@ Check out the live demo: [TaskMaster App](https://mahmoodaaa.github.io/MyTasks/)
 To deploy this project to GitHub Pages:
 
 1. Go to your repository settings on GitHub
-2. Navigate to "Pages" section
-3. Under "Source", select "main" branch
+2. Navigate to "Pages" section under "Settings"
+3. Under "Build and deployment":
+   - Source: Select "Deploy from a branch"
+   - Branch: Select "main" and "/(root)"
 4. Click "Save"
-5. Your site will be published at: `https://mahmoodaaa.github.io/MyTasks/`
+5. Wait a few minutes for the deployment to complete
+6. Your site will be published at: `https://mahmoodaaa.github.io/MyTasks/`
+
+#### Troubleshooting Deployment
+If you see a 404 error:
+1. Make sure all files are in the root directory of the main branch
+2. Verify that `index.html` exists in the root directory
+3. Check the GitHub Actions tab for any deployment errors
+4. Try pushing a small change to trigger a new deployment:
+   ```bash
+   # Add a small change to trigger deployment
+   git checkout main
+   git add .
+   git commit -m "Trigger GitHub Pages deployment"
+   git push origin main
+   ```
 
 ## Project Structure
 
