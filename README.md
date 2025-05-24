@@ -4,9 +4,6 @@
   <img src="images/profile.jpg" alt="Mahmood Aljdayeh" width="200" style="border-radius: 50%;">
   <h2>Mahmood Aljdayeh</h2>
   
-  [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-blue?style=for-the-badge&logo=github)](https://mahmoodaaa.github.io/MyTasks/)
-  [![Last Commit](https://img.shields.io/github/last-commit/mahmoodaaa/MyTasks?style=for-the-badge)](https://github.com/mahmoodaaa/MyTasks/commits)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 </div>
 
 ## About The Project
@@ -29,6 +26,7 @@ TaskMaster is a powerful task management application designed to help you organi
 - Font Awesome for icons
 - Local Storage for data persistence
 
+### Deploy to GitHub Pages
 ## Live Demo
 
 Check out the live demo: [TaskMaster App](http://127.0.0.1:5500/about.html)
@@ -42,32 +40,8 @@ Check out the live demo: [TaskMaster App](http://127.0.0.1:5500/about.html)
 
 2. Open `index.html` in your browser to start using the application.
 
-### Deploy to GitHub Pages
 
-To deploy this project to GitHub Pages:
 
-1. Go to your repository settings on GitHub
-2. Navigate to "Pages" section under "Settings"
-3. Under "Build and deployment":
-   - Source: Select "Deploy from a branch"
-   - Branch: Select "main" and "/(root)"
-4. Click "Save"
-5. Wait a few minutes for the deployment to complete
-6. Your site will be published at: `https://mahmoodaaa.github.io/MyTasks/`
-
-#### Troubleshooting Deployment
-If you see a 404 error:
-1. Make sure all files are in the root directory of the main branch
-2. Verify that `index.html` exists in the root directory
-3. Check the GitHub Actions tab for any deployment errors
-4. Try pushing a small change to trigger a new deployment:
-   ```bash
-   # Add a small change to trigger deployment
-   git checkout main
-   git add .
-   git commit -m "Trigger GitHub Pages deployment"
-   git push origin main
-   ```
 
 ## Project Structure
 
